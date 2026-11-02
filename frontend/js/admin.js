@@ -1,4 +1,4 @@
-const API_URL = "/api"; 
+const API = "/api"; 
 
 const loginView = document.getElementById('loginView');
 const dashboardView = document.getElementById('dashboardView');
