@@ -2,7 +2,7 @@ const itemsBox = document.getElementById('cartItems');
 const summary = document.getElementById('cartSummary');
 const subtotalEl = document.getElementById('subtotal');
 
-const STOCK_API = 'http://localhost:5000/api/products';
+const STOCK_API = '/api/products';
 let stockById = {}; // product id -> how many are in stock
 
 // message shown above the cart items (e.g. "Only 3 available")

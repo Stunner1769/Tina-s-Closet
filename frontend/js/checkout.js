@@ -26,7 +26,7 @@ const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
 orderTotal.textContent = '$' + total.toFixed(2); 
 
 
-const API_URL = 'http://localhost:5000/api/orders';
+const API_URL = '/api/orders';
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();

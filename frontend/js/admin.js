@@ -1,4 +1,4 @@
-const API = 'http://localhost:5000/api';
+const API_URL = "/api"; 
 
 const loginView = document.getElementById('loginView');
 const dashboardView = document.getElementById('dashboardView');

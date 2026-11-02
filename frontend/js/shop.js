@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api/products';
+const API_URL = '/api/products';
 
 function escapeText(str) {
   return String(str).replace(/[&<>"']/g, (c) => ({

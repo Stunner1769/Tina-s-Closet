@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api/products';
+const API_URL = '/api/products';
 
 // Load the product from the URL (product.html?id=2)
 const params = new URLSearchParams(window.location.search);
